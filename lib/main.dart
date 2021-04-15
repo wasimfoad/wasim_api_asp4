@@ -1,8 +1,8 @@
   import 'package:flutter/material.dart';
-  import 'Tasks.dart';
-  import 'Notes.dart';
-  import 'Contacts.dart';
-  import 'Appointments.dart';
+  import 'tasks.dart';
+  import 'notes.dart';
+  import 'contacts.dart';
+  import 'appointments.dart';
   void main() {
     runApp(MyApp());
   }
