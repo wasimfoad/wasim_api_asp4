@@ -48,12 +48,19 @@
                 body:
                 TabBarView(
                     children: <Widget>[
-                      Center(child: Text('It\'s cloudy here')),
-                      Center(child: Text('It\'s rainy here')),
-                      Center(child: Text('It\'s sunny here') ),
-                      Center(child: Text('It\'s sunny here') ),
+                      appointmentsScreen(),
+                     contacts(),
+                      notes(),
+                      tasks(),
                     ]
-                )
+                ),
+                floatingActionButton:
+                FloatingActionButton(
+
+                backgroundColor: Colors.blue,
+                onPressed: () {  },
+                child: new Icon(Icons.add),
+        ),
             )
         ),
 
